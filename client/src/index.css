@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply transition ease-in-out text-black border-2 border-transparent border-b-cyan-500 hover:text-cyan-500 p-1 ml-4  hover:border-b-black duration-300
+  }
+
+  th {
+    @apply md:px-1
+  }
+}
